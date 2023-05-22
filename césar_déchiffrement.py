@@ -22,6 +22,8 @@ def fr(message, taux_mots_min=0.3, taux_lettres_min=0.8):
     taux_lettres = nb_lettres / len(message)
     return taux_mots_francais >= taux_mots_min and taux_lettres >= taux_lettres_min
 
+possibilités= []
+trouvé=False
 for clé in range(26):
     message_décodé = []
     for mot in mots:
@@ -33,10 +35,18 @@ for clé in range(26):
                 position = alphabet.index(lettre) + clé
                 mot_décodé.append(alphabet[position % 26])
         message_décodé.append(''.join(mot_décodé)) 
-    message_final = ' '.join(message_décodé).upper() 
+    message_final = ' '.join(message_décodé).lower() 
 
     if fr(message_final):
         print('La clé de chiffrement est', clé)
         print('Le message décodé est :', message_final)
+        trouvé = True
+        break
+    else:
+        possibilités.append(message_final)
+
+if not trouvé:
+    print("Aucun message décodé ne correspond au français, voici néanmois les possibilités : ")
+    print('\n'.join(possibilités))
     
    
