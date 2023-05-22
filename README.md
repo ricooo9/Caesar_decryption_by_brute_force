@@ -1,4 +1,4 @@
-# Chiffrement césar
+# Caesar encryption
 
 Here are attached 2 files: one allows to encrypt a message entered by the user using the offset also selected by the user using the Caesar encryption. The second one decrypts a message encrypted with the offset/caesar cipher without having to specify a decryption key. To do this, it will use a word list (here French but replace it with the word list of your choice).
 
