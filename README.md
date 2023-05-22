@@ -1,6 +1,6 @@
-# Caesar encryption
+# Caesar decryption by brute force
 
-Here are attached 2 files: one allows to encrypt a message entered by the user using the offset also selected by the user using the Caesar encryption. The second one decrypts a message encrypted with the offset/caesar cipher without having to specify a decryption key. To do this, it will use a word list (here French but replace it with the word list of your choice).
+Here are attached 2 files: one allows to encrypt a message entered by the user using the offset also selected by the user using the Caesar encryption. The second one decrypts a message encrypted with the offset/caesar cipher without having to specify a decryption key. To do this, it will use a word list (here French but replace it with the word list of your choice).It will do a brute force attack by testing the 26 possible moves and will reveal the most likely solution based on the word list. If it doesn't find anything logical it will display the 26 possibilities.
 
 Example of use :
 
