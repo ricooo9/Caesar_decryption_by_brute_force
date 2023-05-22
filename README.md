@@ -4,8 +4,7 @@ Here are attached 2 files: one allows to encrypt a message entered by the user u
 
 Example of use :
 
-![image](https://github.com/AymericF9/Chiffrement_cesar/assets/95702319/bf3dd647-d277-44a0-847c-7cb80ea9eb63)
+![image](https://github.com/AymericF9/Caesar_decryption_by_brute_force/assets/95702319/2ab5b35c-376d-4a3b-9337-9ec7cfa8eea7)
 
 
-
-![image](https://github.com/AymericF9/Chiffrement_cesar/assets/95702319/3e4dc179-ead2-4b12-b209-09d64abb85a8)
+![image](https://github.com/AymericF9/Caesar_decryption_by_brute_force/assets/95702319/d997f753-da57-400b-af55-01f1a9f9468c)
